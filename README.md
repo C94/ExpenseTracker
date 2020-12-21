@@ -1,6 +1,12 @@
-# Full Stack Expenses Tracker
+# Monthly Expenses Tracker
 
-Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend and AngularJS on the frontend.
+Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend, and AngularJS on the frontend to track various monthly expenses.
+
+<img src="/images/dashboard.PNG" alt="Dashboard" width="700px">
+
+<img src="/images/add_expense.PNG" alt="Dashboard" width="700px">
+
+<img src="/images/schema.PNG" alt="Dashboard" width="500px">
 
 ## Frontend
 
@@ -30,6 +36,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## License
-
-[MIT](LICENSE.md)
+## [License](LICENSE.md)
