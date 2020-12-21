@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-md-4">
+  <div class="col mb-4" *ngFor="let tempExpense of expenses">
+    <div class="card h-100" [ngClass]="{'border-success': tempExpense.paid, 'border-danger': !tempExpense.paid}">
+      <img src="{{ tempExpense.imageUrl }}" class="card-img-top">
+      <div class="card-body" [ngClass]="{'text-success': tempExpense.paid, 'text-danger': !tempExpense.paid}">
+        <h5 class=" card-title">{{ tempExpense.name }}</h5>
+        <h6 class="card-text">{{tempExpense.cost | currency:'USD'}}/month</h6>
+        <p class="card-text">{{ tempExpense.description}}</p>
+        <a href='/expenses/add' class="btn btn-info">Edit</a>
+      </div>
+    </div>
+  </div>
+</div>

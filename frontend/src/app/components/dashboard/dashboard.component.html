@@ -1,0 +1,10 @@
+<h3 class="mb-3">
+  My Expenses
+  <small class="text-muted ml-2">{{totalPrice | currency:'USD'}}/month</small>
+</h3>
+
+<a routerLink="/expenses/add" class="btn btn-primary mb-4">Add expense</a>
+
+<app-expense-list></app-expense-list>
+
+<footer class="mb-5"></footer>
