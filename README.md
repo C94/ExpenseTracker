@@ -1,6 +1,6 @@
 # Monthly Expenses Tracker
 
-Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend, and AngularJS on the frontend to track various monthly expenses.
+Work-in-progress full stack web application using a MySQL database, Spring (Boot, Web, Data) on the backend, and Angular on the frontend to track various monthly expenses.
 
 <img src="/images/dashboard.PNG" alt="Dashboard" width="700px">
 
